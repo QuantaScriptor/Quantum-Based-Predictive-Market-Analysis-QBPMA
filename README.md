@@ -1,4 +1,5 @@
 # Quantum-Based Predictive Market Analysis (QBPMA)
+![DALL·E 2024-07-25 14 58 29 - A futuristic and visually appealing banner for GitHub README with the title 'Quantum-Based Predictive Market Analysis (QBPMA)'  The background should ](https://github.com/user-attachments/assets/7e354621-f6f7-44ea-a7b3-aaf39b2ddef0)
 
 ## Description
 Quantum-Based Predictive Market Analysis (QBPMA) is a quantum algorithm designed to analyze and predict market trends with higher accuracy using quantum computing principles.
