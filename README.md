@@ -7,17 +7,91 @@ Quantum-Based Predictive Market Analysis (QBPMA) is a quantum algorithm designed
 ## Offering
 This project is available for purchase. For inquiries regarding pricing and licensing, please contact us at [reece.dixon@quantascript.com](mailto:reece.dixon@quantascript.com).
 
-<h2>Mathematical Equations</h2>
+## Mathematical Equations
 
-<p><b>Feature Extraction:</b> Percentage change calculation</p>
-<img src="https://latex.codecogs.com/svg.latex?\text{pct\_change}%20=%20\frac{X_t%20-%20X_{t-1}}{X_{t-1}}" title="\text{pct\_change} = \frac{X_t - X_{t-1}}{X_{t-1}}" />
+1. **Feature Extraction**: Percentage change calculation
 
-<p><b>Quantum Circuit Initialization:</b> Creating superposition states</p>
-<img src="https://latex.codecogs.com/svg.latex?\left|%20\psi%20\right\rangle%20=%20H%20\left|%200%20\right\rangle^n" title="\left| \psi \right\rangle = H \left| 0 \right\rangle^n" />
+   <p align="center">
+   <math xmlns="http://www.w3.org/1998/Math/MathML">
+     <mrow>
+       <mi>pct\_change</mi>
+       <mo>=</mo>
+       <mfrac>
+         <mrow>
+           <mi>X</mi>
+           <msub>
+             <mi>t</mi>
+           </msub>
+           <mo>-</mo>
+           <mi>X</mi>
+           <msub>
+             <mi>t</mi>
+             <mo>-</mo>
+             <mn>1</mn>
+           </msub>
+         </mrow>
+         <mrow>
+           <mi>X</mi>
+           <msub>
+             <mi>t</mi>
+             <mo>-</mo>
+             <mn>1</mn>
+           </msub>
+         </mrow>
+       </mfrac>
+     </mrow>
+   </math>
+   </p>
 
-<p><b>Measurement:</b> Collapsing quantum state</p>
-<img src="https://latex.codecogs.com/svg.latex?M(\left|%20\psi%20\right\rangle)%20=%20\left|%20x%20\right\rangle%20\text{%20with%20probability%20}%20|\left\langle%20x%20|%20\psi%20\right\rangle|^2" title="M(\left| \psi \right\rangle) = \left| x \right\rangle \text{ with probability } |\left\langle x | \psi \right\rangle|^2" />
+2. **Quantum Circuit Initialization**: Creating superposition states
 
+   <p align="center">
+   <math xmlns="http://www.w3.org/1998/Math/MathML">
+     <mrow>
+       <mo>|</mo>
+       <mi>ψ</mi>
+       <mo>⟩</mo>
+       <mo>=</mo>
+       <mi>H</mi>
+       <mo>|</mo>
+       <mn>0</mn>
+       <mo>⟩</mo>
+       <msup>
+         <mn>n</mn>
+       </msup>
+     </mrow>
+   </math>
+   </p>
+
+3. **Measurement**: Collapsing quantum state
+
+   <p align="center">
+   <math xmlns="http://www.w3.org/1998/Math/MathML">
+     <mrow>
+       <mi>M</mi>
+       <mo>(</mo>
+       <mo>|</mo>
+       <mi>ψ</mi>
+       <mo>⟩</mo>
+       <mo>)</mo>
+       <mo>=</mo>
+       <mo>|</mo>
+       <mi>x</mi>
+       <mo>⟩</mo>
+       <mtext> with probability </mtext>
+       <mo>|</mo>
+       <mo>⟨</mo>
+       <mi>x</mi>
+       <mo>|</mo>
+       <mi>ψ</mi>
+       <mo>⟩</mo>
+       <mo>|</mo>
+       <msup>
+         <mn>2</mn>
+       </msup>
+     </mrow>
+   </math>
+   </p>
 ## Installation
 To use QBPMA, you'll need to install the following dependencies:
 - `numpy`
