@@ -5,7 +5,7 @@
 Quantum-Based Predictive Market Analysis (QBPMA) is a quantum algorithm designed to analyze and predict market trends with higher accuracy using quantum computing principles.
 
 ## Offering
-This project is available for purchase. For inquiries regarding pricing and licensing, please contact us at [reece.dixon@quantascript.com](mailto:reece.dixon@quantascript.com).
+This project is available for purchase. For inquiries regarding pricing and licensing, please contact us at [quantascript@gmail.com](mailto:quantascript@gmail.com).
 
 ## Mathematical Equations
 
